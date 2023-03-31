@@ -1,12 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="logo">NewtonHelp</li>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="carousel">
+        <div class="image-container" id="imgs">
+          <img src="./assets/1.jpg" alt="first-image" />
+          <img src="./assets/2.jpg" alt="first-image" />
+          <img src="./assets/3.jpg" alt="first-image" />
+        </div>
+
+        <div class="buttons-container">
+          <button id="left" class="btn">Prev</button>
+          <button id="right" class="btn">Next</button>
+        </div>
+      </div>
+    </header>
+    <div class="card_container">
+      <div class="heading">
+        <p>Our Causes</p>
+        <p>
+          Cillum proident anim incididunt irure amet. Ea anim laboris aliquip eu
+          irure aute. Non laboris amet tempor voluptate sint.
+        </p>
+        
+      </div>
+      <div class="card_flex">
+        <div class="card">
+            <img src="./assets/5.jpg" alt="">
+            <div class="title">Pariatur exercitation officia esse fugiat aute quis non non veniam.</div>
+            <input type="range"/>
+            <button>Donate Now</button>
+        </div>
+
+        <div class="card">
+            <img src="./assets/4.jpg" alt="">
+            <div class="title">Pariatur exercitation officia esse fugiat aute quis non non veniam.</div>
+            <input type="range"/>
+            <button>Donate Now</button>
+        </div>
+
+        <div class="card">
+            <img src="./assets/6.jpg" alt="">
+            <div class="title">Pariatur exercitation officia esse fugiat aute quis non non veniam.</div>
+            <input type="range"/>
+            <button>Donate Now</button>
+        </div>
+
+    </div>
+    </div>
+    <div class="card_container">
+        <div class="heading">
+            <p>How to help</p>
+            <p>
+              Cillum proident anim incididunt irure amet. Ea anim laboris aliquip eu
+              irure aute. Non laboris amet tempor voluptate sint.
+            </p>
+            
+          </div>
+
+        <div class="help_flex">
+            <div class="card">
+                <img src="./assets/7.svg" alt="">
+                <div class="sub_title">
+                    <p>Make a donation</p>
+                </div>
+                <div class="title">Pariatur exercitation officia esse fugiat aute quis non non veniam.</div>                
+                
+            </div>    
+            <div class="card">
+                <img src="./assets/8.svg" width="30px" alt=""> 
+                <div class="sub_title">
+                    <p>Volunteer</p>
+                </div> 
+                <div class="title">Pariatur exercitation officia esse fugiat aute quis non non veniam.</div>
+                
+            </div>    
+            <div class="card">
+                <img src="./assets/9.svg" alt="">  
+                <div class="sub_title">
+                    <p>Give Scholarship</p>
+                </div>
+                <div class="title">Pariatur exercitation officia esse fugiat aute quis non non veniam.</div> 
+                
+            </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
 </html>
